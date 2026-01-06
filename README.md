@@ -11,27 +11,33 @@ Windows users often have issues with Claude Code notifications:
 
 ## Options
 
-### Option 1: Visual Popup (recommended)
+### Option 1: Visual Popup 🪟
 
 A popup appears at the bottom center of the screen and auto-closes after 2.5 seconds.
 
-1. Copy `notify.ps1` to `C:\Users\YOUR_USERNAME\.claude\`
-2. Use `settings.example.json` as template
+**Setup:**
 
-### Option 2: Beep Sound
+1. Copy `notify.ps1` → `C:\Users\YOUR_USERNAME\.claude\notify.ps1`
+2. Copy `settings.example.json` → `C:\Users\YOUR_USERNAME\.claude\settings.json`
+
+> 📌 **Note:** The path in `settings.json` must match where you placed `notify.ps1`
+
+### Option 2: Beep Sound 🔔
 
 Simple beep sound when task completes. No files to copy.
 
-1. Use `settings.beep.json` as template
+**Setup:**
 
-## Install
+1. Copy `settings.beep.json` → `C:\Users\YOUR_USERNAME\.claude\settings.json`
 
-Add hook to your `settings.json`:
+## Install Location
 
-- **Global** (all projects): `C:\Users\YOUR_USERNAME\.claude\settings.json`
-- **Project-level**: `YOUR_PROJECT\.claude\settings.json`
+| Scope                    | Path                                            |
+| ------------------------ | ----------------------------------------------- |
+| 🌐 Global (all projects) | `C:\Users\YOUR_USERNAME\.claude\settings.json`  |
+| 📁 Project-level         | `YOUR_PROJECT\.claude\settings.json`            |
 
-Then restart Claude Code.
+⚠️ **Restart Claude Code after changes!**
 
 ## Customization
 
