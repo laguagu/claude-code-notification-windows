@@ -1,10 +1,10 @@
-# Claude Code Notification for Windows 11
+# Claude Code Notification for Windows
 
 Visual popup notification when Claude Code finishes a task. Works with **Git Bash**, **PowerShell**, and **CMD**.
 
 ## Problem
 
-Windows 11 users often have issues with Claude Code notifications:
+Windows users often have issues with Claude Code notifications:
 
 - Terminal bell doesn't work
 - Toast notifications fail
