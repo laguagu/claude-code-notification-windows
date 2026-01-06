@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File C:\\Users\\YOUR_USERNAME\\.claude\\notify.ps1"
+          }
+        ]
+      }
+    ]
+  }
+}
